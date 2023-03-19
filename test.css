@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+li {
+    list-style: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-right {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.header-main-right > li {
+    padding: 0 12px;
+}
+
+.header-main-left img {
+    weight: 55px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 10px;
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Chủ</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="trangchu.css" />
+    <link rel="stylesheet" href="css/reponsive.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="img-logo">
+          <img
+            src="Ao/Letter N Abstract shape Logo.jpg"
+            alt="img-logo"
+            weight="100"
+            height="100"
+          />
+        </div>
+        <div class="menu-desktop">
+          <form action="" class="search" method="post">
+            <input
+              type="text"
+              class="input-search"
+              placeholder="Bạn muốn tìm kiếm gì?"
+            />
+            <button type="submit" class="button-search">Tìm kiếm</button>
+          </form>
+        </div>
+
+        <button id="cart">
+          <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+          Giỏ Hàng
+        </button>
+        <div class="avt">
+          <a href="#">
+            <img src="#" alt="img-avt" />
+          </a>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Giỏ Hàng</h5>
+              <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <div class="cart-row">
+                <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                <span class="cart-price cart-header cart-column">Giá</span>
+                <span class="cart-quantity cart-header cart-column"
+                  >Số Lượng</span
+                >
+              </div>
+              <div class="cart-items"></div>
+              <div class="cart-total">
+                <strong class="cart-total-title">Tổng Cộng:</strong>
+                <span class="cart-total-price">0VNĐ</span>
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary close-footer">
+                Đóng
+              </button>
+              <button type="button" class="btn btn-primary order">
+                Thanh Toán
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- title space -->
+    <hr />
+    <h1>Shop Products</h1>
+    <section class="wrapper">
+      <div class="products">
+        <ul>
+          <li class="main-product">
+            <div class="img-product">
+              <img class="img-prd" src="Ao/1.png" alt="" />
+            </div>
+            <div class="content-product">
+              <h3 class="content-product-h3">Áo CITY CYCLE</h3>
+              <div class="content-product-deltals">
+                <div class="price">
+                  <span class="money">25000đ</span>
+                </div>
+                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+              </div>
+            </div>
+          </li>
+          <li class="main-product">
+            <div class="img-product">
+              <img class="img-prd" src="Ao/2.png" alt="" />
+            </div>
+            <div class="content-product">
+              <h3 class="content-product-h3">Áo CAPMAN</h3>
+              <div class="content-product-deltals">
+                <div class="price">
+                  <span class="money">1299000đ</span>
+                </div>
+                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+              </div>
+            </div>
+          </li>
+          <li class="main-product">
+            <div class="img-product">
+              <img class="img-prd" src="Ao/3.png" alt="" />
+            </div>
+            <div class="content-product">
+              <h3 class="content-product-h3">ÁO THUN OD</h3>
+              <div class="content-product-deltals">
+                <div class="price">
+                  <span class="money">1599000đ</span>
+                </div>
+                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+              </div>
+            </div>
+          </li>
+          <li class="main-product no-margin">
+            <div class="img-product">
+              <img class="img-prd" src="Ao/4.png" alt="" />
+            </div>
+            <div class="content-product">
+              <h3 class="content-product-h3">ÁO PHÔNG NAM</h3>
+              <div class="content-product-deltals">
+                <div class="price">
+                  <span class="money">89000đ</span>
+                </div>
+                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+              </div>
+            </div>
+          </li>
+          <li class="main-product">
+            <div class="img-product">
+              <img class="img-prd" src="Ao/10.png" alt="" />
+            </div>
+            <div class="content-product">
+              <h3 class="content-product-h3">ÁO THUN NAM</h3>
+              <div class="content-product-deltals">
+                <div class="price">
+                  <span class="money">2199000đ</span>
+                </div>
+                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+              </div>
+            </div>
+          </li>
+          <li class="main-product">
+            <div class="img-product">
+              <img class="img-prd" src="Ao/14.png" alt="" />
+            </div>
+            <div class="content-product">
+              <h3 class="content-product-h3">ÁO THUN NAM SIÊU NGẦU</h3>
+              <div class="content-product-deltals">
+                <div class="price">
+                  <span class="money">115000đ</span>
+                </div>
+                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+              </div>
+            </div>
+          </li>
+          <li class="main-product">
+            <div class="img-product">
+              <img class="img-prd" src="Ao/13.png" alt="" />
+            </div>
+            <div class="content-product">
+              <h3 class="content-product-h3">ÁO THUN ĐEN NAM</h3>
+              <div class="content-product-deltals">
+                <div class="price">
+                  <span class="money">1295000đ</span>
+                </div>
+                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+              </div>
+            </div>
+          </li>
+          <li class="main-product no-margin">
+            <div class="img-product">
+              <img class="img-prd" src="Ao/12.png" alt="" />
+            </div>
+            <div class="content-product">
+              <h3 class="content-product-h3">ÁO THUN BELIVE</h3>
+              <div class="content-product-deltals">
+                <div class="price">
+                  <span class="money">85000đ</span>
+                </div>
+                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="footer-item">
+        <div class="img-footer">
+          <img src="img/logo.png" alt="" />
+        </div>
+        <div class="social-footer">
+          <li>
+            <a target="_blank" href="https://www.facebook.com/thanhlongdev">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/long1211">
+              <i class="fa fa-github-square" aria-hidden="true"></i>
+            </a>
+          </li>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
